@@ -1,7 +1,7 @@
 BasicInfo:
   FirstName: David
   LastName: Martinka
-  Photo: img/avatar.png
+  Photo: img/avatar.jpeg
   Contacts:
     # - Icon: fas fa-phone
     #   Info: +1 401 787 5658
@@ -16,7 +16,7 @@ Profile: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 
 Experience:
   - Employer: MediaVue Systems
-    Place: Hingham, MA
+    Place: Hingham, MA, USA
     Positions:
       - Title: Lead Engineer
         Date: June 2011 - Feb 2024
@@ -27,37 +27,26 @@ Experience:
           - Nisl tincidunt eget nullam non nisi est
           - Sed viverra tellus in hac.
           - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ['Python', 'Django', 'OOP', 'Javascript', 'HTML', 'CSS', 'Agile']
-      - Title: Software Tester
-        Date: Mar 2019 - Jan 2020
+        Badges: ['Bash', 'Python', 'OOP', 'HTML', 'CSS', 'Agile']
+      - Title: Support Lead
+        Date: June 2011 - Feb 2024
         Details:
           - Nisl tincidunt eget nullam non nisi est
           - Sed viverra tellus in hac.
           - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ['Python', 'BDD', 'Selenium', 'OOP', 'Agile']
-  - Employer: Another super cool company
-    Place: Lisbon, PT
+        Badges: ['Bash', 'BDD', 'Selenium', 'OOP', 'Agile']
+  - Employer: B Sharp Music
+    Place: Providence, RI, USA
+    Class: "experience__extra_padding"
     Positions:
-      - Title: Flow Cytometry Resource Specialist
-        Date: Jan 2018 - Mar 2019
+      - Title: Electronic Repair Technician / Owner
+        Date: April 2003 - Mar 2013
         Details:
           - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
           - Nisl tincidunt eget nullam non nisi est
           - Sed viverra tellus in hac.
           - Lorem ipsum dolor sit amet, consectetur adipiscing elit
         Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
-  - Employer: Institute of Neural Engineering
-    Place: Graz, AT
-    Class: "experience__extra_padding"
-    Positions:
-      - Title: Master's Thesis Research Intern
-        Date: Oct 2016 - Jun 2017
-        Details:
-          - Arcu vitae elementum curabitur vitae nunc sed velit
-          - Viverra aliquet eget sit amet tellus cras adipiscing
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-        Badges: ['Python', 'MATLAB', 'Data Processing', 'Paradigm Design']
 
 Education:
   - Course: BSc & MSc in Biomedical Engineering and Biophysics
