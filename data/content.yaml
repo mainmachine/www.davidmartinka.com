@@ -19,7 +19,7 @@ Experience:
     Place: Hingham, MA, USA
     Positions:
       - Title: Lead Engineer
-        Date: June 2011 - Feb 2024
+        Date: August 2022 - Feb 2024
         Details:
           - Arcu vitae elementum curabitur vitae nunc sed velit
           - Viverra aliquet eget sit amet tellus cras adipiscing
@@ -29,7 +29,7 @@ Experience:
           - Lorem ipsum dolor sit amet, consectetur adipiscing elit
         Badges: ['Bash', 'Python', 'OOP', 'HTML', 'CSS', 'Agile']
       - Title: Support Lead
-        Date: June 2011 - Feb 2024
+        Date: June 2011 - August 2022
         Details:
           - Nisl tincidunt eget nullam non nisi est
           - Sed viverra tellus in hac.
@@ -49,14 +49,14 @@ Experience:
         Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
 
 Education:
-  - Course: BSc & MSc in Biomedical Engineering and Biophysics
-    Place: University of Lisbon
-    Date: Sep 2012 - Nov 2017
-    Details: Specialised in data analysis
+  - Course: ASc in Computer Programming (Incomplete)
+    Place: Community College of RI
+    Date: Sep 1996 - May 1997
+    Details: Postponed to pursue a career in Music
 
 References:
-  - Name: Person One
-    Relation: Co-worker at Super Cool Company
+  - Name: Brian Kane
+    Relation: Co-worker at MediaVue Systems
     Contacts:
     - Icon: fas fa-phone
       Info: +44 123 456 790
@@ -64,8 +64,8 @@ References:
       Info: contact@person-one.com
     - Icon: fas fa-map-marker-alt
       Info: Melbourne, Australia
-  - Name: Person Two
-    Relation: Boss at Super Cool Company
+  - Name: Rob Conlon
+    Relation: Co-worker at MediaVue Systems
     Contacts:
     - Icon: fas fa-phone
       Info: +44 123 456 791
@@ -78,45 +78,83 @@ References:
 Skills:
   - Family: Programming
     Items:
+      - Bash/Shell
       - Python
-      - HTML (including Jinja)
+      - HTML
       - Javascript
       - CSS
-      - SASS
       - SQL
       - C#
-      - Bash
-      - MATLAB
-  - Family: Frameworks
+      - Powershell
+  - Family: Hardware
     Items:
-      - Django
-      - Flask
-      - Hugo
-      - React
+      - EagleCAD
+      - PCB Layout
+      - Stress & Tolerance Testing
+      - Compatibility Testing
+      - Troubleshooting, Diagnosis
+      - Repair & Refurbishment
+      - Driver Development
+      - x86, ARM & MCU Programming
   - Family: Developer Tools
     Items:
       - Git
-      - Docker
-      - Jenkins
-      - AWS
+      - Docker (Build, Compose, CI/CD Instrumentation)
+      - Gitlab
+      - VSCode
+      - Virtualization (Cloud & Bare Metal)
+      - Serial Debugging
+  - Family: System & Network Administration
+    Items:
+      - Systemd & Sysvinit
+      - Email Administration
+      - Web Servers (Apache, Nginx, etc.)
+      - Wired and Wireless Networking
+      - Zero Trust
+      - Distributed Systems
+      - Digital Signage
+  - Family: A/V
+    Items:
+      - Audio Engineering & Editing
+      - Video Editing
+      - Re-Encoding & Transcoding
+      - Streaming Video
+      - Audio Circuit Design
   - Family: Misc
     Items:
-      - Adobe Tools
-      - LaTeX
+      - Linux Kernel
+      - Jira
+      - Audio and Video Engineering
+      - Netsuite
+      - Software Packaging:
+        - Debian
+        - Snap
+        - Tinycore Linux
+      - 
 
-Languages:
-  - Name: Portuguese
-    Level: Native
-  - Name: English
-    Level: C2
-  - Name: Spanish
-    Level: B1
-  - Name: German
-    Level: B1
-
-Diplomas:
-  - ISTQB Tester Certification (2019)
-  - English Cambridge CAE (2009)
+Projects:
+  - Name: MVOS
+    Place: MediaVue Systems
+    Description:
+      - Designed, maintained and improved Embedded OS for SureVue Digital Signage products. "MVOS" is based on
+      - Ubuntu Linux, engineered for autonomous 24/7 operation, post-deployment. Base OS is configured in a typical
+      - manner for a headless server or IOT device. Remote configuration and control is provided by proprietary client
+      - software, which connects each SureVue to MediaVue's "ANM" cloud service. Failover provided by redundant "call-home"
+      - service. I leveraged Systemd extensively for service orchestration and dependency management to provide reliable,
+      - predictable startup and shutdown. User Session and Signage software orchestration was implement via a Systemd Unit
+      - and a combination of Shell scripting and user "services".
+    Highlight:
+      - My proudest achievement WRT MVOS is the work I put in to implement an in-field LTS upgrade mechanism. This allows
+      - even legacy systems to upgrade from an older LTS base to a current LTS, skipping interim releases. This "leapfrog"
+      - feature requires careful assessment of the system state pre-upgrade, utilized a package manifest method, and ensures
+      - a predictable, stable system state and guaranteed upgrade result. The officially supported upgrade path for Ubuntu
+      - requires a system be fully upgraded to each interim LTS version - I engineered a way to upgrade from Ubuntu 16.04
+      - directly to 20.04, skipping the 18.04 release entirely. It was a challenging task, and required years of work to
+      - achieve this success.
+    Skills:
+      - Bash/Shell
+      - Systemd
+      - Python
 
 Interests:
   - Bouldering
