@@ -119,7 +119,7 @@ Skills:
       - Digital Signage
   - Family: A/V
     Items:
-      - Audio Engineering & Editing
+      - Audio Engineering
       - Video Editing
       - Re-Encoding & Transcoding
       - Streaming Video
@@ -128,9 +128,17 @@ Skills:
     Items:
       - Linux Kernel
       - Jira
-      - Audio and Video Engineering
       - Netsuite
       - Software Packaging - Debian, Snap, Tinycore Linux
+
+Interests:
+  - Bouldering
+  - Cooking
+  - Windsurfing
+  - Bossa Nova
+  - Design
+  - Languages
+
 
 Projects:
   - Name: MVOS
@@ -155,11 +163,3 @@ Projects:
       - Bash/Shell
       - Systemd
       - Python
-
-Interests:
-  - Bouldering
-  - Cooking
-  - Windsurfing
-  - Bossa Nova
-  - Design
-  - Languages
