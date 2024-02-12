@@ -21,15 +21,20 @@ Experience:
       - Title: Lead Engineer
         Date: August 2022 - Feb 2024
         Details:
-          - Arcu vitae elementum curabitur vitae nunc sed velit
-          - Viverra aliquet eget sit amet tellus cras adipiscing
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          - Designed, maintained and improved Embedded Linux OS for SureVue Digital Signage products
+          - Implemented, developed and maintained several complex, conditional, multi-stage CI/CD pipelines using Gitlab and Docker
+          - Ported the ANM cloud application to Docker, separating it's components into multiple, logical containers (Reverse Proxy, Database and Application)
+          - Developed new hardware models in the SureVue line of Digital Signage media player devices, optimizing the OS and Linux Kernel for each model
         Badges: ['Bash', 'Python', 'OOP', 'HTML', 'CSS', 'Agile']
-      - Title: Support Lead
-        Date: June 2011 - August 2022
+      - Title: Product Designer
+        Date: June 2014 - August 2022
+        Details:
+          - Participated in product design of SureVue Series
+          - Devised a redundant fan-array system which became the standard for the SureVue series
+          - Campaigned for moving from Windows Embedded OS to Ubuntu Linux based OS for SureVue line. Result was improved reliability, reduced system overhead, massively extended service life, and reduced manufacturing cost.
+        Badges: ['Bash', 'Powershell', 'VSCode', 'git-flow', 'Agile']
+      - Title: Support Technician
+        Date: June 2011 - August 2018
         Details:
           - Nisl tincidunt eget nullam non nisi est
           - Sed viverra tellus in hac.
@@ -73,7 +78,6 @@ References:
       Info: contact@person-two.com
     - Icon: fas fa-map-marker-alt
       Info: Sydney, Australia
-
 
 Skills:
   - Family: Programming
