@@ -32,14 +32,14 @@ Experience:
           - Participated in product design of SureVue Series
           - Devised a redundant fan-array system which became the standard for the SureVue series
           - Campaigned for moving from Windows Embedded OS to Ubuntu Linux based OS for SureVue line, resulting in improved reliability, reduced system overhead, massively extended service life, and reduced manufacturing cost
-        Badges: ['Bash', 'Powershell', 'Agile']
+        Badges: ['Bash', 'Powershell', 'Sytem Administration', 'Agile']
       - Title: Support Technician
         Date: June 2011 - August 2018
         Details:
           - Managed incoming support requests via phone and email
           - Identified the need for a ticketing system, deployed, configured and managed an on-premise instance of "Request Tracker"
           - Identified a manufacturing bottleneck, proactively devised a solution, implemented a network-based image deployment system which became an essential manufacturing component
-        Badges: ['Bash', 'Linux', 'Deployment', 'OOP', 'Agile']
+        Badges: ['Bash', 'Linux', 'Deployment']
   - Employer: B Sharp Music
     Place: Providence, RI, USA
     Class: "experience__extra_padding"
@@ -51,7 +51,7 @@ Experience:
           - Repaired and refurbished audio electronics, amplifiers, effects pedals, etc.
           - Managed inventory, supply chain, accounting and storefront
           - Handled customer requests, organized events and advertising
-        Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
+        Badges: ['Management', 'Scheduling', 'Customer Service', 'Soldering', 'Troubleshooting']
 
 Education:
   - Course: ASc in Computer Programming (Incomplete)
