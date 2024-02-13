@@ -9,7 +9,7 @@ BasicInfo:
       Info: dave@davidmartinka.com
     - Icon: fas fa-globe
       Info: <a class="contact__link" href="https://www.davidmartinka.com" target="_blank">davidmartinka.com</a>
-    - Icon: fas fa-github
+    - Icon: fab fa-github
       Info: <a class="contact__link" href="https://github.com/mainmachine" target="_blank">github.com/mainmachine</a>
     - Icon: fas fa-map-marker-alt
       Info: Just outside of Boston, USA
