@@ -22,7 +22,7 @@ Experience:
         Date: August 2022 - Feb 2024
         Details:
           - Designed, maintained and improved Embedded Linux OS for SureVue Digital Signage products
-          - Implemented, developed and maintained several complex, conditional, multi-stage CI/CD pipelines using Gitlab and Docker
+          - Implemented, developed and maintained several complex, multi-stage CI/CD pipelines using Gitlab and Docker
           - Ported the ANM cloud application to Docker, separating it's components into multiple, logical containers (Reverse Proxy, Database and Application)
           - Developed new hardware models in the SureVue line of Digital Signage media player devices, optimizing the OS and Linux Kernel for each model
         Badges: ['Bash', 'Python', 'Docker', 'OOP', 'VSCode', 'git-flow', 'Agile']
