@@ -12,7 +12,7 @@ BasicInfo:
     - Icon: fas fa-map-marker-alt
       Info: Just outside of Boston, USA
 
-Profile: Daily Linux user for 12 years. Motivated problem solver. Product designer. Network administrator. Software Engineer. 
+Profile: Daily Linux user for 12 years. Motivated problem solver. Experienced Product designer. Seasoned Network administrator. Practical Software Engineer. Passionate Open Source advocate.
 
 Experience:
   - Employer: MediaVue Systems
@@ -25,21 +25,21 @@ Experience:
           - Implemented, developed and maintained several complex, conditional, multi-stage CI/CD pipelines using Gitlab and Docker
           - Ported the ANM cloud application to Docker, separating it's components into multiple, logical containers (Reverse Proxy, Database and Application)
           - Developed new hardware models in the SureVue line of Digital Signage media player devices, optimizing the OS and Linux Kernel for each model
-        Badges: ['Bash', 'Python', 'OOP', 'HTML', 'CSS', 'Agile']
+        Badges: ['Bash', 'Python', 'Docker', 'OOP', 'VSCode', 'git-flow', 'Agile']
       - Title: Product Designer
         Date: June 2014 - August 2022
         Details:
           - Participated in product design of SureVue Series
           - Devised a redundant fan-array system which became the standard for the SureVue series
           - Campaigned for moving from Windows Embedded OS to Ubuntu Linux based OS for SureVue line, resulting in improved reliability, reduced system overhead, massively extended service life, and reduced manufacturing cost
-        Badges: ['Bash', 'Powershell', 'VSCode', 'git-flow', 'Agile']
+        Badges: ['Bash', 'Powershell', 'Agile']
       - Title: Support Technician
         Date: June 2011 - August 2018
         Details:
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ['Bash', 'BDD', 'Selenium', 'OOP', 'Agile']
+          - Managed incoming support requests via phone and email
+          - Identified the need for a ticketing system, deployed, configured and managed an on-premise instance of "Request Tracker"
+          - Identified a manufacturing bottleneck, proactively devised a solution, implemented a network-based image deployment system which became an essential manufacturing component
+        Badges: ['Bash', 'Linux', 'Deployment', 'OOP', 'Agile']
   - Employer: B Sharp Music
     Place: Providence, RI, USA
     Class: "experience__extra_padding"
@@ -47,10 +47,10 @@ Experience:
       - Title: Electronic Repair Technician / Owner
         Date: April 2003 - Mar 2013
         Details:
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          - Opened and managed a retail guitar shop
+          - Repaired and refurbished audio electronics, amplifiers, effects pedals, etc.
+          - Managed inventory, supply chain, accounting and storefront
+          - Handled customer requests, organized events and advertising
         Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
 
 Education:
