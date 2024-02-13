@@ -1,0 +1,33 @@
+version: "2.1"
+services:
+  hugo:
+    image: hugomods/hugo
+    container_name: ${DOMAIN}-hugo
+    command: hugo server -D --bind 0.0.0.0
+    restart: unless-stopped
+    logging:
+      options:
+        max-size: "100m"
+        max-file: "3"
+    networks:
+      - default
+      - traefik-network
+    labels:
+      - traefik.enable=true
+      - traefik.port=1313
+      - traefik.docker.network=traefik-network
+      - traefik.frontend.passHostHeader=true
+      - traefik.frontend.rule=HostRegexp:${DOMAIN},www.${DOMAIN}
+      - traefik.frontend.redirect.regex=^https://(www.|)${DOMAIN}/(.*)
+      - traefik.frontend.redirect.replacement=https://www.${DOMAIN}/$${2}
+    volumes: 
+      - "/srv/hugo/www.${DOMAIN}:/src"
+
+networks: 
+  default:
+    driver: bridge
+    name: ${DOMAIN}-hugo-network
+  traefik-network:
+    external: true
+
+
