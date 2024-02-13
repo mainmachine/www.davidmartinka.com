@@ -2,3 +2,29 @@ baseURL: https://www.davidmartinka.com/
 languageCode: en-us
 title: David Martinka
 theme: almeida-cv
+
+defaultContentLanguage: "en"
+enableRobotsTXT: true
+enableEmoji: true
+
+disableKinds: ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
+
+#googleAnalytics: ""
+
+params:
+  enableMetaTags: true
+  colorLight: "#fff"
+  colorDark: "#666"
+  colorPageBackground: "#ddd"
+  colorPrimary: "#d64937"
+  colorSecondary: "#aaa"
+  colorIconPrimary: "#fff"
+  colorIconBackground: "#d64937"
+  colorRightColumnBackground: "#f5f5f5"
+  colorRightColumnHeadingText: "#666"
+  colorRightColumnBodyText: "#666"
+  colorRightColumnIconPrimary: "#fff"
+  colorRightColumnIconBackground: "#d64937"
+  pages: 1
+  # Set this param to 'true' to swap the bar positions
+  swapColumns: false
