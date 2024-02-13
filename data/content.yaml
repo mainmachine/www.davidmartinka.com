@@ -3,8 +3,8 @@ BasicInfo:
   LastName: Martinka
   Photo: img/avatar.jpeg
   Contacts:
-    # - Icon: fas fa-phone
-    #   Info: +1 401 787 5658
+    - Icon: fas fa-phone
+      Info: +1 508 316 9440
     - Icon: fas fa-envelope
       Info: dave@davidmartinka.com
     - Icon: fas fa-globe
