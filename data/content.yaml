@@ -60,6 +60,15 @@ Education:
     Details: Postponed to pursue a career in Music
 
 References:
+  - Name: Erik DeGiorgi
+    Relation: CEO at MediaVue Systems
+    Contacts:
+    - Icon: fas fa-phone
+      Info: +1 508 521 5247
+    - Icon: fas fa-envelope
+      Info: erik@erikdegiorgi.com
+    - Icon: fas fa-map-marker-alt
+      Info: Watertown, MA, USA
   - Name: Brian Kane
     Relation: Co-worker at MediaVue Systems
     Contacts:
@@ -78,15 +87,6 @@ References:
       Info: conlonrobertj@gmail.com
     - Icon: fas fa-map-marker-alt
       Info: Wrentham, MA, USA
-  - Name: Erik DeGiorgi
-    Relation: CEO at MediaVue Systems
-    Contacts:
-    - Icon: fas fa-phone
-      Info: +1 508 521 5247
-    - Icon: fas fa-envelope
-      Info: erik@erikdegiorgi.com
-    - Icon: fas fa-map-marker-alt
-      Info: Watertown, MA, USA
 
 Skills:
   - Family: Programming
