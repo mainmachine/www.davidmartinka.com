@@ -12,7 +12,7 @@ BasicInfo:
     - Icon: fas fa-map-marker-alt
       Info: Just outside of Boston, USA
 
-Profile: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Profile: Daily Linux user for 12 years. Motivated problem solver. Product designer. Network administrator. Software Engineer. 
 
 Experience:
   - Employer: MediaVue Systems
@@ -31,7 +31,7 @@ Experience:
         Details:
           - Participated in product design of SureVue Series
           - Devised a redundant fan-array system which became the standard for the SureVue series
-          - Campaigned for moving from Windows Embedded OS to Ubuntu Linux based OS for SureVue line. Result was improved reliability, reduced system overhead, massively extended service life, and reduced manufacturing cost.
+          - Campaigned for moving from Windows Embedded OS to Ubuntu Linux based OS for SureVue line, resulting in improved reliability, reduced system overhead, massively extended service life, and reduced manufacturing cost
         Badges: ['Bash', 'Powershell', 'VSCode', 'git-flow', 'Agile']
       - Title: Support Technician
         Date: June 2011 - August 2018
@@ -134,7 +134,7 @@ Skills:
 Interests:
   - Guitar
   - Parrots
-  - "Home Automation"
+  - 'Home Automation'
   - Games
   - Cycling
   - Psychology
