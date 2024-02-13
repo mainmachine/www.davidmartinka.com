@@ -21,8 +21,8 @@ params:
   colorIconPrimary: "#f9f9f9"
   colorIconBackground: "#d64937"
   colorRightColumnBackground: "#dcdcdc"
-  colorRightColumnHeadingText: "#535353"
-  colorRightColumnBodyText: "#666"
+  colorRightColumnHeadingText: "#2d2d2d"
+  colorRightColumnBodyText: "#3d3d3d"
   colorRightColumnIconPrimary: "#f9f9f9"
   colorRightColumnIconBackground: "#d64937"
   pages: 1
