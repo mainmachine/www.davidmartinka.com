@@ -64,20 +64,29 @@ References:
     Relation: Co-worker at MediaVue Systems
     Contacts:
     - Icon: fas fa-phone
-      Info: +44 123 456 790
+      Info: +1 781 267 4977
     - Icon: fas fa-envelope
-      Info: contact@person-one.com
+      Info: bkane521@gmail.com
     - Icon: fas fa-map-marker-alt
-      Info: Melbourne, Australia
+      Info: Hanson, MA, USA
   - Name: Rob Conlon
     Relation: Co-worker at MediaVue Systems
     Contacts:
     - Icon: fas fa-phone
-      Info: +44 123 456 791
+      Info: +1 508 641 8294
     - Icon: fas fa-envelope
-      Info: contact@person-two.com
+      Info: conlonrobertj@gmail.com
     - Icon: fas fa-map-marker-alt
-      Info: Sydney, Australia
+      Info: Wrentham, MA, USA
+  - Name: Erik DeGiorgi
+    Relation: CEO at MediaVue Systems
+    Contacts:
+    - Icon: fas fa-phone
+      Info: +1 508 521 5247
+    - Icon: fas fa-envelope
+      Info: erik@erikdegiorgi.com
+    - Icon: fas fa-map-marker-alt
+      Info: Watertown, MA, USA
 
 Skills:
   - Family: Programming
@@ -85,9 +94,9 @@ Skills:
       - Bash/Shell
       - Python
       - HTML
-      - Javascript
       - CSS
       - SQL
+      - Javascript
       - C#
       - Powershell
   - Family: Hardware
@@ -102,7 +111,7 @@ Skills:
       - x86, ARM & MCU Programming
   - Family: Developer Tools
     Items:
-      - Git
+      - Git, Git Flow
       - Docker (Build, Compose, CI/CD Instrumentation)
       - Gitlab
       - VSCode
@@ -140,26 +149,3 @@ Interests:
   - Psychology
 
 
-Projects:
-  - Name: MVOS
-    Place: MediaVue Systems
-    Description:
-      - Designed, maintained and improved Embedded OS for SureVue Digital Signage products. "MVOS" is based on
-      - Ubuntu Linux, engineered for autonomous 24/7 operation, post-deployment. Base OS is configured in a typical
-      - manner for a headless server or IOT device. Remote configuration and control is provided by proprietary client
-      - software, which connects each SureVue to MediaVue's "ANM" cloud service. Failover provided by redundant "call-home"
-      - service. I leveraged Systemd extensively for service orchestration and dependency management to provide reliable,
-      - predictable startup and shutdown. User Session and Signage software orchestration was implement via a Systemd Unit
-      - and a combination of Shell scripting and user "services".
-    Highlight:
-      - My proudest achievement WRT MVOS is the work I put in to implement an in-field LTS upgrade mechanism. This allows
-      - even legacy systems to upgrade from an older LTS base to a current LTS, skipping interim releases. This "leapfrog"
-      - feature requires careful assessment of the system state pre-upgrade, utilized a package manifest method, and ensures
-      - a predictable, stable system state and guaranteed upgrade result. The officially supported upgrade path for Ubuntu
-      - requires a system be fully upgraded to each interim LTS version - I engineered a way to upgrade from Ubuntu 16.04
-      - directly to 20.04, skipping the 18.04 release entirely. It was a challenging task, and required years of work to
-      - achieve this success.
-    Skills:
-      - Bash/Shell
-      - Systemd
-      - Python
