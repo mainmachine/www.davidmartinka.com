@@ -9,6 +9,8 @@ BasicInfo:
       Info: dave@davidmartinka.com
     - Icon: fas fa-globe
       Info: <a class="contact__link" href="https://www.davidmartinka.com" target="_blank">davidmartinka.com</a>
+    - Icon: fas fa-github
+      Info: <a class="contact__link" href="https://github.com/mainmachine" target="_blank">github.com/mainmachine</a>
     - Icon: fas fa-map-marker-alt
       Info: Just outside of Boston, USA
 
@@ -32,7 +34,7 @@ Experience:
           - Participated in product design of SureVue Series
           - Devised a redundant fan-array system which became the standard for the SureVue series
           - Campaigned for moving from Windows Embedded OS to Ubuntu Linux based OS for SureVue line, resulting in improved reliability, reduced system overhead, massively extended service life, and reduced manufacturing cost
-        Badges: ['Bash', 'Powershell', 'Sytem Administration', 'Agile']
+        Badges: ['Bash', 'Powershell', 'System Administration', 'Agile']
       - Title: Support Technician
         Date: June 2011 - August 2018
         Details:
