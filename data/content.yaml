@@ -7,6 +7,8 @@ BasicInfo:
       Info: +1 508 316 9440
     - Icon: fas fa-envelope
       Info: dave@davidmartinka.com
+    - Icon: fab fa-linkedin
+      Info: <a class="contact__link" href="https://www.linkedin.com/in/david-martinka-b156ab84" target="_blank">LinkedIn Profile</a>
     - Icon: fas fa-globe
       Info: <a class="contact__link" href="https://www.davidmartinka.com" target="_blank">davidmartinka.com</a>
     - Icon: fab fa-github
