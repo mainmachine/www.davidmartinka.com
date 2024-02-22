@@ -2,15 +2,16 @@
 <div id="coverletter" class="section">
     <div class="section__content">
         <div class="coverletter">
-            {{ if .CoverLetter.Addressee }}
-                <div class="coverletter__greeting">
+            <div>
+                {{ time.Format ":date_long" now }}
+            </div>
+            <div class="coverletter__greeting">
+                {{ if .CoverLetter.Addressee }}
                     <p>{{ .CoverLetter.Addressee | safeHTML | emojify }}</p>
-                </div>
-            {{ else }}
-                <div class="coverletter__greeting">
+                {{ else }}
                     <p>{{ .CoverLetter.Greeting | safeHTML | emojify }}</p>
-                </div>
-            {{ end }}
+                {{ end }}
+            </div>
             <div class="coverletter__body">
                 <p>{{ .CoverLetter.Body | safeHTML | emojify }}</p>
             </div>
