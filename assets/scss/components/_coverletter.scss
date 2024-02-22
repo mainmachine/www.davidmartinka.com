@@ -1,0 +1,35 @@
+.coverletter {
+    display: block;
+    margin-bottom: 2rem;
+
+    font-size: 180%;
+
+    @include avoid-break;
+
+    &__greeting {
+        display: inline-block;
+        // min-width: 49%;
+        @include break-before;
+    }
+
+    &__body {
+        box-sizing: border-box;
+        // margin: 0px;
+        margin: 20px;
+    }
+
+    &__closing {
+        // display: inline-block;
+        display: block;
+        // min-width: 49%;
+
+        & li{
+            display: block;
+            // font-size: 140%;
+            // font-weight: 400;
+            // transition: all 0.2s ease-in-out;
+            // padding: 0 1px;
+            border-radius: 2px;
+        }
+    }
+}

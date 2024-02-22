@@ -29,3 +29,9 @@
         page-break-inside: avoid;
     }
 }
+
+@mixin break-before {
+    @media print {
+        break-before: always;
+    }
+}

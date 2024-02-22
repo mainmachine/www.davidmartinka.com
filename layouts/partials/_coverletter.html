@@ -1,7 +1,27 @@
 {{ if .CoverLetter }}
 <div id="coverletter" class="section">
     <div class="section__content">
-        <p>{{ .CoverLetter.Body | safeHTML | emojify }}</p>
+        <div class="coverletter">
+            {{ if .CoverLetter.Addressee }}
+                <div class="coverletter__greeting">
+                    <p>{{ .CoverLetter.Addressee | safeHTML | emojify }}</p>
+                </div>
+            {{ else }}
+                <div class="coverletter__greeting">
+                    <p>{{ .CoverLetter.Greeting | safeHTML | emojify }}</p>
+                </div>
+            {{ end }}
+            <div class="coverletter__body">
+                <p>{{ .CoverLetter.Body | safeHTML | emojify }}</p>
+            </div>
+            <div class="coverletter__closing">
+                <li>
+                    {{ range .CoverLetter.Closing }}
+                    <li>{{ . | safeHTML }}</li>
+                    {{ end }}
+                </li>
+            </div>
+        </div>
     </div>
 </div>
 {{ end }}

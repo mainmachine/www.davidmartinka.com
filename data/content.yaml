@@ -152,4 +152,12 @@ Interests:
   - Cycling
   - Psychology
 
-CoverLetter: !include cover-letters/content.yaml
+CoverLetter:
+  Greeting: Hello!
+  Body: This is where I describe why I am applying and why I am an excellent choice for the position.
+  Closing:
+    - Thank you for your time,
+    - Dave Martinka
+
+  # Optional - if we know the name of the hiring contact
+  # Addressee: Dear Mr. Guy,
