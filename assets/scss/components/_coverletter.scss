@@ -9,7 +9,12 @@
     &__greeting {
         display: inline-block;
         // min-width: 49%;
+        // color: $color-secondary;
         @include break-before;
+
+        & span {
+            color: $color-primary;
+        }
     }
 
     &__body {

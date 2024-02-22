@@ -6,11 +6,13 @@
                 {{ time.Format ":date_long" now }}
             </div>
             <div class="coverletter__greeting">
-                {{ if .CoverLetter.Addressee }}
-                    <p>{{ .CoverLetter.Addressee | safeHTML | emojify }}</p>
-                {{ else }}
-                    <p>{{ .CoverLetter.Greeting | safeHTML | emojify }}</p>
-                {{ end }}
+                <span>
+                    {{ if .CoverLetter.Addressee }}
+                            {{ .CoverLetter.Addressee | safeHTML | emojify }}
+                    {{ else }}
+                                {{ .CoverLetter.Greeting | safeHTML | emojify }}
+                    {{ end }}
+                </span>
             </div>
             <div class="coverletter__body">
                 <p>{{ .CoverLetter.Body | safeHTML | emojify }}</p>
