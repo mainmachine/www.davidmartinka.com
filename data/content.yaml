@@ -1,6 +1,7 @@
 BasicInfo:
   FirstName: David
   LastName: Martinka
+  NickName: Dave
   Photo: img/avatar.jpeg
   Contacts:
     - Icon: fas fa-phone
@@ -155,9 +156,8 @@ Interests:
 CoverLetter:
   Greeting: Hello!
   Body: This is where I describe why I am applying and why I am an excellent choice for the position.
-  Closing:
-    - Thank you for your time,
-    - Dave Martinka
+  Closing: Thank you for your time,
 
   # Optional - if we know the name of the hiring contact
   # Addressee: Dear Mr. Guy,
+  Addressee: 

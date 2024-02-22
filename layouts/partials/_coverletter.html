@@ -18,11 +18,11 @@
                 <p>{{ .CoverLetter.Body | safeHTML | emojify }}</p>
             </div>
             <div class="coverletter__closing">
-                <li>
-                    {{ range .CoverLetter.Closing }}
-                    <li>{{ . | safeHTML }}</li>
-                    {{ end }}
-                </li>
+                <p>
+                    {{ .CoverLetter.Closing | safeHTML | emojify }}
+                    <br>
+                    {{ .BasicInfo.NickName }} <span>{{ .BasicInfo.LastName }}</span>
+                </p>
             </div>
         </div>
     </div>

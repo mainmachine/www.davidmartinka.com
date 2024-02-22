@@ -1,20 +1,23 @@
 .coverletter {
     display: block;
-    margin-bottom: 2rem;
+    // margin-bottom: 2rem;
+    margin-top: 6px;
 
     font-size: 180%;
 
     @include avoid-break;
 
+    & span {
+        color: $color-primary;
+    }
+
     &__greeting {
         display: inline-block;
+        margin-top: 6px;
+
         // min-width: 49%;
         // color: $color-secondary;
         @include break-before;
-
-        & span {
-            color: $color-primary;
-        }
     }
 
     &__body {
@@ -27,14 +30,5 @@
         // display: inline-block;
         display: block;
         // min-width: 49%;
-
-        & li{
-            display: block;
-            // font-size: 140%;
-            // font-weight: 400;
-            // transition: all 0.2s ease-in-out;
-            // padding: 0 1px;
-            border-radius: 2px;
-        }
     }
 }
