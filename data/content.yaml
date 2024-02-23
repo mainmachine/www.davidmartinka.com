@@ -155,9 +155,14 @@ Interests:
 
 CoverLetter:
   Greeting: Hello!
-  Body: This is where I describe why I am applying and why I am an excellent choice for the position.
+  Body:
+    - This is where I describe why I am applying and why I am an excellent choice for the position.
+    - This is the second paragraph.
+    - Third paragraph.
   Closing: Thank you for your time,
 
   # Optional - if we know the name of the hiring contact
   # Addressee: Dear Mr. Guy,
-  Addressee: 
+  Addressee:
+    Name:
+    Greeting:

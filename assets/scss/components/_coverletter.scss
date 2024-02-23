@@ -24,6 +24,10 @@
         box-sizing: border-box;
         // margin: 0px;
         margin: 20px;
+
+        & ul, li {
+            margin-top: 10px;
+        }
     }
 
     &__closing {

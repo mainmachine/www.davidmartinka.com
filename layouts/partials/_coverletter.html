@@ -7,15 +7,17 @@
             </div>
             <div class="coverletter__greeting">
                 <span>
-                    {{ if .CoverLetter.Addressee }}
+                    {{ if .CoverLetter.Addressee.Name }}
                             {{ .CoverLetter.Addressee | safeHTML | emojify }}
                     {{ else }}
-                                {{ .CoverLetter.Greeting | safeHTML | emojify }}
+                            {{ .CoverLetter.Greeting | safeHTML | emojify }}
                     {{ end }}
                 </span>
             </div>
             <div class="coverletter__body">
-                <p>{{ .CoverLetter.Body | safeHTML | emojify }}</p>
+                {{ range .CoverLetter.Body }}
+                  <ul>{{ . | safeHTML | emojify }}</ul>
+                {{ end }}
             </div>
             <div class="coverletter__closing">
                 <p>
